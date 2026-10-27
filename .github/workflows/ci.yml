@@ -160,7 +160,7 @@ jobs:
           #   :latest    always points to the newest build
           #   :<sha>     the exact commit, so you can trace any image back to its code
            tags: |
-            ghcr.io/${{ github.repository_owner }}/expo:1.0
-            ghcr.io/${{ github.repository_owner }}/expo:latest
-            ghcr.io/${{ github.repository_owner }}/expo:${{ github.sha }}
+            ghcr.io/natashacodes23/expo:1.0
+            ghcr.io/natashacodes23/expo:latest
+            ghcr.io/natashacodes23/expo:${{ github.sha }}
           
